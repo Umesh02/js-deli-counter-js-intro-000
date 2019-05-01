@@ -9,7 +9,7 @@ if (katzDeliLine.length === 0) {
 } else {
   var personBeingServed = katzDeliLine[0]
   katzDeliLine.splice(0, 1)
-  return personBeingServed
+  return "Currently serving " + personBeingServed
 }
 }
 
