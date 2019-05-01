@@ -11,5 +11,5 @@ if (katzDeliLine.length === 0) {
   katzDeliLine.splice(0, 1)
   return personBeingServed
 }
-  
+
 }
