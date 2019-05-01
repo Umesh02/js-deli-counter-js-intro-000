@@ -11,5 +11,17 @@ if (katzDeliLine.length === 0) {
   katzDeliLine.splice(0, 1)
   return personBeingServed
 }
-
 }
+
+function currentLine(katzDeliLine) {
+  if (katzDeliLine.length === 0) {
+    return `The line is currently empty.`
+  } 
+var str = `The line is currently: `
+for (var i = 0; i < katzDeliLine.length; i++) {
+  
+  str += `${i + 1}. ${katzDeliLine[i]}, `
+}
+  str = str.substring(0, str.length-2)
+return str
+}	
