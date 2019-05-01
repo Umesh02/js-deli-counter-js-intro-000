@@ -24,4 +24,4 @@ for (var i = 0; i < katzDeliLine.length; i++) {
 }
   str = str.substring(0, str.length-2)
 return str
-}	
+}
